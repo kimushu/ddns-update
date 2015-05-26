@@ -36,6 +36,8 @@ module Net
   end
 end
 
+Dir.chdir(File.expand_path(File.dirname(__FILE__)))
+
 require "./services/no-ip"
 require "./services/ieserver"
 require "./services/dynamic-do.jp"
